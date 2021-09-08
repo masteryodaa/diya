@@ -98,8 +98,11 @@ main h6{
 
 
     body p{
+        padding: 0;
+        margin: 0;
+        font-size: 12px;
         position: fixed;
-        bottom: 0;
+        bottom: 2px;
     }
 
     body p a{
