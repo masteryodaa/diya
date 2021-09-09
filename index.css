@@ -60,13 +60,16 @@ main h6{
     overflow-y: hidden;
 }
 
+button{
+    overflow:hidden;
+}
 
 .know *{
     overflow-y: hidden;
 }
 
 .know{
-    margin-bottom: 150px;
+    /* margin-bottom: 100px; */
     position: relative;
 }
 
@@ -115,4 +118,8 @@ video{
         overflow: hidden;
     }
 
+    #visit{
+        margin-bottom: 120px;
+        overflow-y: hidden;
+    }
 
