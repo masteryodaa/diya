@@ -29,8 +29,8 @@ body{
     overflow-x: hidden;
 }
 
-.hashtag{
-    overflow-y: hidden;
+.content *{
+    overflow: hidden;
 }
 
 
