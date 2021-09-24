@@ -31,7 +31,7 @@
 
 
         <!-- Diya -->
-        <div class="container">
+        <!-- <div class="container">
             <div class="diyaContainer" onclick="burn()">
 
                 <div class="flameContainer">
@@ -44,11 +44,15 @@
 
                 </div>
             </div>
-        </div>
+        </div> -->
+
+        <video id="video" onclick="play()" width="400" height="300">
+            <source src="./diya.mp4" type="video/mp4" />
+        </video>
 
 
         <div class="mb-5">
-            <button onclick="burn()" id="btn" class="btn btn-sm btn-warning">Om Shanti</button>
+            <button onclick="play()" id="btn" class="btn btn-sm btn-warning">Om Shanti</button>
         </div>
 
 
@@ -113,11 +117,10 @@
 
 
     <script>
-        function burn() {
-            var flame = document.getElementById('flame');
-            flame.style.display = 'block';
+        function play() {
+            const video = document.getElementById('video')
+            video.play()
         }
-
     </script>
 
 </body>

@@ -9,13 +9,13 @@
 
         overflow-x: hidden;
 
-        /* background-color: #ffffff;
-    background-image: url("./svg.png");
+        background-color: #ffffff;
+    background-image: url("./download.svg");
     background-attachment: fixed;
-    background-size: cover; */
+    background-size: cover;
 
-    background-color: #f1dfd1;
-    background-image: linear-gradient(315deg, #f1dfd1 0%, #f6f0ea 74%);
+    /* background-color: #f1dfd1;
+    background-image: linear-gradient(315deg, #f1dfd1 0%, #f6f0ea 74%); */
 
       }
       .container{
