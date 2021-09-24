@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tribute</title>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+    <link href="https://use.fontawesome.com/releases/v5.6.1/css/all.css" rel="stylesheet">
+
+    <link rel="stylesheet" href="index.css">
+
+    <script src="tribute.js"></script>
+
+    <!-- <script type="text/javascript" src="https://platform-api.sharethis.com/js/sharethis.js#property=614d9cd4d602b900198af5c2&product=inline-share-buttons" async="async"></script> -->
+
+
+
+</head>
+
+<body>
+
+    <div class="main">
+
+        <h3 class="text-center text-danger my-2 py-3">Remembering our fallen Brothers and Sisters.</h3>
+        <h4 class="text-dark d-flex align-items-center hashtag">#100yrsMalabarHinduGenocide<i class="fab fa-twitter"></i></h4>
+
+
+        <!-- Diya -->
+        <div class="container">
+            <div class="diyaContainer" onclick="burn()">
+
+                <div class="flameContainer">
+                    <div id="flame" class="flame">
+
+                    </div>
+                </div>
+
+                <div class="diya">
+
+                </div>
+            </div>
+        </div>
+
+
+        <div class="mb-5">
+            <button onclick="burn()" id="btn" class="btn btn-sm btn-warning">Om Shanti</button>
+        </div>
+
+
+        <div class="icons mb-3">
+            <div class="frame">
+                <a href="https://www.facebook.com/sharer/sharer.php?u=https://www.websiteplanet.com/webtools/sharelink/"
+                    target="_blank" class="icon_btn" style="background: #3b5998;">
+                    <i class="fab fa-facebook-f"></i>
+
+                </a>
+
+                <a href="https://twitter.com/intent/tweet?url=http://diyaforhindus.netlify.com/&text=I%20remember%20my%20martyred%20Hindu%20brothers%20and%20sisters.%20Do%20you%0A#100yrsMalabarHinduGenocide" target="_blank"
+                class="icon_btn" style="background: #00acee;">
+                <i class="fab fa-twitter"></i></a>
+
+               
+
+
+                <a href="https://api.whatsapp.com/send?text=I%20remember%20my%20martyred%20Hindu%20brothers%20and%20sisters.%20Do%20you%3F%0A%0A%23100yrsMalabarHinduGenocide%0A%0Ahttp%3A%2F%2Fdiyaforhindus.netlify.com%2F" target="_blank" class="icon_btn" style="background: #25D366;">
+                    <i class="fab fa-whatsapp"></i>
+                </a>
+
+            </div>
+        </div>
+
+
+        <!-- <div class="sharethis-inline-share-buttons" ></div> -->
+
+
+
+        <div class="footer">
+
+            <h2 class="mb-1">Know about them</h2>
+
+            <div class="youtube-width video m-0 my-4">
+                <div class="youtube-container">
+                    <iframe src="https://www.youtube.com/embed/cn0R-uwae78" frameborder="0" allowfullscreen></iframe>
+                </div>
+            </div>
+
+        </div>
+
+        <!-- Start of WebFreeCounter Code -->
+        <a  class='mt-5 mb-0' id="visit" href="https://www.webfreecounter.com/" target="_blank"><img
+            src="https://www.webfreecounter.com/hit.php?id=gerocdac&nd=5&style=4" border="0" alt="web counter">
+        Visitors</a>
+    <!-- End of WebFreeCounter Code -->
+
+
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+            <path fill="#ff5500" fill-opacity="1"
+                d="M0,192L48,176C96,160,192,128,288,128C384,128,480,160,576,176C672,192,768,192,864,181.3C960,171,1056,149,1152,154.7C1248,160,1344,192,1392,208L1440,224L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z">
+            </path>
+        </svg>
+
+        <h5 class="credit"><a href="https://github.com/masteryodaa/" target="_blank" rel="noopener noreferrer">Made by
+                Ujjwal.</a></h5>
+
+    </div>
+
+
+
+
+    <script>
+        function burn() {
+            var flame = document.getElementById('flame');
+            flame.style.display = 'block';
+        }
+
+    </script>
+
+</body>
+
+</html>
